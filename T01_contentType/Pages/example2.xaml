@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T01_contentType.Pages.example2"
+             Title="example2">
+
+
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Visual="Default">
+            <Image
+                Source="img.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Content page image" />
+
+            <Label
+                FontFamily="OpenSans-Semibold"
+                Padding="10"
+                Margin="10"
+                FontSize="16">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="The " />
+                        <Span Text=".NET MAUI" TextColor="MediumVioletRed" />
+                        <Span Text=" ContentPage displays a single view, which is often a layout such as Grid or StackLayout, and is the most common page type." />
+
+                        <Span Text="&#10;&#10; • " />
+                        <Span Text="ContentPage" TextColor="BlueViolet" FontAttributes="Italic" />
+                        <Span Text=" defines the following properties: &#10;" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Image
+                Source="graph.png"
+                Margin="10"
+                HeightRequest="185"
+                Aspect="AspectFill"
+                SemanticProperties.Description="Content page aspectFill image" />
+
+            <Label 
+                FontFamily="OpenSans-Regular"
+                Padding="10"
+                Margin="10"
+                FontSize="16">
+
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="1. " FontAttributes="Bold" />
+                        <Span Text="Content " TextColor="MediumBlue" />
+                        <Span Text="property, of type " />
+                        <Span Text="View" TextColor="MediumBlue" />
+                        <Span Text=", which defines the view that represents the page's content.&#10;" />
+
+                        <Span Text="&#10;2. " FontAttributes="Bold" />
+                        <Span Text="HideSoftInputOnTapped" TextColor="MediumBlue" />
+                        <Span Text=", of type " />
+                        <Span Text="bool" BackgroundColor="LightGray" />
+                        <Span Text=", which indicates whether tapping anywhere on the page will cause the soft input keyboard to hide if it's visible. &#10;" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Image
+                Source="racecar_font.png"
+                Margin="10"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Content page aspectFit image" />
+
+            <Label
+                FontFamily="OpenSans-Regular"
+                Padding="10"
+                Margin="10"
+                FontSize="16">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="These properties are backed by " />
+                        <Span Text="BindableProperty " TextColor="MediumBlue" />
+                        <Span Text="objects, which means that they can be the target of data bindings, and styled. &#10;" />
+                        <Span Text="In addition, " />
+                        <Span Text="ContentPage " TextColor="MediumBlue" />
+                        <Span Text="inherits &#10;• " />
+                        <Span Text="Title" BackgroundColor="LightGray" />
+                        <Span Text=", &#10;• " />
+                        <Span Text="IconImageSource" BackgroundColor="LightGray" />
+                        <Span Text=", &#10;• " />
+                        <Span Text="BackgroundImageSource" BackgroundColor="LightGray" />
+                        <Span Text=", &#10;&#10;• " />
+                        <Span Text="IsBusy" BackgroundColor="LightGray" />
+                        <Span Text=", and " />
+                        <Span Text="Padding " BackgroundColor="LightGray" />
+                        <Span Text="bindable properties from the " />
+                        <Span Text="Page " TextColor="MediumBlue" />
+                        <Span Text="class." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <StackLayout BackgroundColor="HotPink" Margin="10" Padding="10">
+                <Label
+                    FontFamily="OpenSans-Regular"
+                    FontSize="14"
+                    Margin="5"
+                    Padding="5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="# " TextColor="DarkBlue" FontSize="16" />
+                            <Span Text="Note &#10;" TextColor="DarkBlue" FontSize="16" FontAttributes="Bold" />
+                            <Span Text="The " />
+                            <Span Text="Content" BackgroundColor="LightGray" />
+                            <Span Text=" property is the content property of the ContentPage class, and therefore does not need to be explicitly set from XAML." />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+
+            <Image
+                Source="racecar_side.png"
+                Margin="10"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Content page aspectFit image" />
+
+            <Label
+                Margin="10"
+                Padding="10"
+                FontSize="16">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text=".NET MAUI apps typically contain multiple pages that derive from " />
+                        <Span Text="ContentPage" TextColor="DarkBlue" />
+                        <Span Text=", and navigation between these pages can be performed. For more information about page navigation, see" />
+                        <Span Text="NavigationPage" TextColor="DarkBlue" />
+                        <Span Text=". &#10;A " />
+                        <Span Text="ContentPage " TextColor="DarkBlue" />
+                        <Span Text="can be templated with a control template." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Image
+                Source="dotnet_dev.png"
+                Margin="10"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Content page aspectFit image"
+                />
+
+            <Image
+                Source="hexacorp.png"
+                Margin="10"
+                HeightRequest="85"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Content page aspectFit image"
+                />
+
+            <Label
+                Margin="10"
+                Padding="10"
+                FontSize="14"
+                FontFamily="OpenSans-Regular"
+                >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Create a ContentPage &#10;&#10;" FontSize="18" FontAttributes="Bold" />
+                        <Span Text="To add a " />
+                        <Span Text="ContentPage " TextColor="DarkBlue" />
+                        <Span Text="to a .NET MAUI app: &#10;" />
+                        <Span Text="1. In " />
+                        <Span Text="Solution Explorer" FontAttributes="Bold" />
+                        <Span Text=", right-click the project node and select " />
+                        <Span Text="New Item...." FontAttributes="Bold" />
+
+                        <Span Text="&#10;" />
+
+                        <Span Text="In the " />
+                        <Span Text="Add New Item" FontAttributes="Bold" />
+                        <Span Text=" dialog, expand " />
+                        <Span Text="Installed " FontAttributes="Bold" />
+                        <Span Text="--> " />
+                        <Span Text="C# Items" FontAttributes="Bold" />
+                        <Span Text=", select " />
+                        <Span Text=".NET MAUI" FontAttributes="Bold" />
+                        <Span Text=", and select the " />
+                        <Span Text=".NET MAUI ContentPage (XAML)" FontAttributes="Bold" />
+                        <Span Text=" template, enter a suitable page name, and click the " />
+                        <Span Text="Add " FontAttributes="Bold" />
+                        <Span Text="button. &#10;" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Image
+                Source="snipping.png"
+                Margin="10"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Content page aspectFit image"
+                />
+
+            <Label
+                Margin="10"
+                Padding="10"
+                FontSize="14"
+                FontFamily="OpenSans-Regular"
+                >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Visual Studio then creates a new " />
+                        <Span Text="ContentPage" TextColor="DarkBlue" />
+                        <Span Text="-derived page, which will be similar to the following example: &#10;" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <StackLayout>
+                <BoxView BackgroundColor="SlateBlue" HeightRequest="5"
+                         HorizontalOptions="Start" WidthRequest="50"
+                         />
+                
+                <Label  Text="XAML" FontSize="16" TextColor="DarkGoldenrod"
+                        HorizontalOptions="Start"
+                    />
+
+                <!-- Code snippet -->
+                <ScrollView Orientation="Horizontal" BackgroundColor="FloralWhite" Padding="10" SemanticProperties.Description="Code block">
+                    <Label SemanticProperties.Description="Coding Snippet">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="&lt;ContentPage " TextColor="Blue" />
+                                <Span Text=" xmlns=" TextColor="CadetBlue" />
+                                <Span Text="&quot;http://schemas.microsoft.com/dotnet/2021/maui&quot; &#10;" TextColor="Brown" />
+                                <Span Text="                            xmlns:x=" TextColor="CadetBlue" />
+                                <Span Text="&quot;http://schemas.microsoft.com/winfx/2009/xaml&quot; &#10;" TextColor="Brown" />
+                                <Span Text="                            x:Class" TextColor="CadetBlue" />
+                                <Span Text="&quot;MyMauiApp.MyPage&quot; &#10;" TextColor="Brown" />
+                                <Span Text="                            Title=" TextColor="CadetBlue" />
+                                <Span Text="&quot;MyPage&quot; &#10;" TextColor="Brown" />
+                                <Span Text="                            BackgroundColor=" TextColor="CadetBlue" />
+                                <Span Text="&quot;White&quot; " TextColor="Brown" />
+                                <Span Text="&gt; &#10;" TextColor="Blue" />
+
+                                <Span Text="            &lt;StackLayout&gt; &#10;" TextColor="Blue" />
+                                <Span Text="                     &lt;Label  " TextColor="Blue" />
+                                <Span Text="Text=" TextColor="CadetBlue" />
+                                <Span Text="&quot;Welcome to .NET MAUI!&quot; &#10;" TextColor="Brown" />
+                                <Span Text="                                    VerticalOptions=" TextColor="CadetBlue" />
+                                <Span Text="&quot;Center&quot; &#10;" TextColor="Brown" />
+                                <Span Text="                                    HorizontalOptions=" TextColor="CadetBlue" />
+                                <Span Text="&quot;Center&quot;" TextColor="Brown" />
+                                <Span Text="&gt; &#10;" TextColor="Blue" />
+                                <Span Text="                    &lt;!-- Other views go there --&gt; &#10;" TextColor="MediumSeaGreen" />
+                                <Span Text="            &lt;StackLayout&gt; &#10;" TextColor="Blue" />
+                                <Span Text="&lt;/ContentPage&gt;" TextColor="Blue" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </ScrollView>
+
+            </StackLayout>
+
+            <Label
+                Margin="10"
+                Padding="10"
+                >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="The child of a ContentPage is a typically a layout, such as " />
+                        <Span Text="Grid " TextColor="DarkBlue" />
+                        <Span Text="or " />
+                        <Span Text="StackLayout " TextColor="DarkBlue" />
+                        <Span Text=", with the layout typically containing multiple views. 
+                              However, the child of the ContentPage can be a view that displays a collection, such as " />
+                        <Span Text="CollectionView" TextColor="DarkBlue" />
+                        <Span Text="." />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+    
+    
