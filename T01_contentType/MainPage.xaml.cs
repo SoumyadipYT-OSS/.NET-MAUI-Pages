@@ -5,7 +5,6 @@
             InitializeComponent();
         }
 
-
         // method to go example1.xaml page under Pages folder
         private async void GoExample1(object sender, EventArgs e) {
             await Navigation.PushAsync(new Pages.example1());
