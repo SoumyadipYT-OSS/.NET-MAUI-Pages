@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\pages\\example2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:pages\\example2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\pages\\example1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:pages\\example1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\pages\\example1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:pages\\example1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\pages\\example2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:pages\\example2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\pages\\example2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:pages\\example2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\pages\\example2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:pages\\example2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|d:\\github_repo_connections\\.net-maui-pages\\t01_contenttype\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AB0826B-7E14-446B-9CD3-C2EDC0094B15}|T01_contentType.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +58,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "MainPage.xaml.cs",
-              "ToolTip": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\MainPage.xaml.cs",
-              "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T20:13:15.49Z",
+              "WhenOpened": "2024-08-28T20:15:47.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-28T20:15:45.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T20:15:44.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-28T20:15:43.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "example1.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\Pages\\example1.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\example1.xaml.cs",
+              "ToolTip": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\Pages\\example1.xaml.cs",
+              "RelativeToolTip": "Pages\\example1.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T20:15:40.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "example1.xaml",
+              "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\Pages\\example1.xaml",
+              "RelativeDocumentMoniker": "Pages\\example1.xaml",
+              "ToolTip": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\Pages\\example1.xaml",
+              "RelativeToolTip": "Pages\\example1.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-28T20:15:39.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
@@ -60,7 +149,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "example2.xaml",
+              "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\Pages\\example2.xaml",
+              "RelativeDocumentMoniker": "Pages\\example2.xaml",
+              "ToolTip": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\Pages\\example2.xaml",
+              "RelativeToolTip": "Pages\\example2.xaml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-28T10:26:57.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T20:13:15.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "example2.xaml.cs",
               "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\Pages\\example2.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\example2.xaml.cs",
@@ -69,19 +184,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T17:31:41.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "example2.xaml",
-              "DocumentMoniker": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\Pages\\example2.xaml",
-              "RelativeDocumentMoniker": "Pages\\example2.xaml",
-              "ToolTip": "D:\\GitHub_repo_connections\\.NET-MAUI-Pages\\T01_contentType\\Pages\\example2.xaml",
-              "RelativeToolTip": "Pages\\example2.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-28T10:26:57.489Z",
               "EditorCaption": ""
             }
           ]
