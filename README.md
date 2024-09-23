@@ -12,3 +12,12 @@ Here I 've contributed, .NET-MAUI-Pages, how to create pages.
 
 https://github.com/user-attachments/assets/6f4baa95-33bc-4c30-b08f-5b2885fa0763
 
+
+
+### FlyoutPage
+![Screenshot 2024-09-23 230734](https://github.com/user-attachments/assets/d5a9836c-c58f-417e-96ba-262ab7a8ffd3)
+
+
+## Video Output
+https://github.com/user-attachments/assets/7a4f1930-7ed9-49e2-9b79-8fcbbaa90444
+
