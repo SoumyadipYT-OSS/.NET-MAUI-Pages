@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T03_navigationPage.MainPage">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#00B4DB" Offset="0.0" />
+            <GradientStop Color="#0083B0" Offset="0.5" />
+            <GradientStop Color="#00C9A7" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never">
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Margin="10"
+                Source="geometry.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+
+            <Label
+                Text="Hey .NET &#10; developers! &#10; Soumyadip Majumder 👋"
+                TextColor="AliceBlue"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Today we'll learn Navigation Page"
+                TextColor="WhiteSmoke"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to Navigation page topic." />
+
+            <Image
+                Source="geometric.gif"
+                Background="Transparent"
+                Aspect="AspectFill"
+                IsAnimationPlaying="True"
+                SemanticProperties.Description="Animated GIF" />
+
+            <!-- Container for Buttons -->
+            <StackLayout Padding="10" Spacing="10">
+                <Button
+                    x:Name="OrangeBtn"
+                    Text="Calculus" 
+                    BackgroundColor="Orange"
+                    SemanticProperties.Hint="Go to calculus page"
+                    Clicked="GoOrange"
+                    HorizontalOptions="Fill" />
+
+                <Button
+                    x:Name="BrownBtn"
+                    Text="Linear Algebra"
+                    BackgroundColor="Brown"
+                    SemanticProperties.Hint="Go to linear algebra page"
+                    Clicked="GoBrown"
+                    HorizontalOptions="Fill" />
+
+                <Button
+                    x:Name="PurpleBtn"
+                    Text="Statistics"
+                    BackgroundColor="MediumPurple"
+                    SemanticProperties.Hint="Go to statistics page"
+                    Clicked="GoPurple"
+                    HorizontalOptions="Fill" />
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T03_navigationPage.Pages.PageBrown"
+             Title="PageBrown">
+    <ScrollView VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never">
+        <Grid>
+            <!-- Gradient Overlay -->
+            <BoxView>
+                <BoxView.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="DarkSlateBlue" Offset="0.0" />
+                        <GradientStop Color="MediumSlateBlue" Offset="0.5" />
+                        <GradientStop Color="LightSteelBlue" Offset="1.0" />
+                    </LinearGradientBrush>
+                </BoxView.Background>
+            </BoxView>
+
+            <!-- Animated GIF as Background -->
+            <Image Source="g1.gif"
+                   Aspect="AspectFill"
+                   IsAnimationPlaying="True"
+                   BackgroundColor="Transparent"
+                   Opacity="0.8" />
+
+            <!-- Content -->
+            <VerticalStackLayout>
+                <Label 
+                    Text="Linear Algebra"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    FontSize="24" />
+                <Label 
+                    Text="Linear Algebra is the branch of mathematics concerning 
+                        linear equations, linear functions, and their representations 
+                        through matrices and vector spaces."
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    FontSize="18"
+                    Margin="20,20" />
+
+                <!-- Additional Information -->
+                <Label 
+                    Text="Key Concepts in Linear Algebra:"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    TextColor="White"
+                    FontSize="20"
+                    Margin="10,0" />
+                <Label 
+                    Text="1. Vectors: Objects that have both a magnitude and a direction."
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    TextColor="White"
+                    FontSize="16"
+                    Margin="10,0" />
+                <Label 
+                    Text="2. Matrices: Rectangular arrays of numbers, symbols, or expressions, arranged in rows and columns."
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    TextColor="White"
+                    FontSize="16"
+                    Margin="10,0" />
+
+                <Image Source="linalgeb.gif"
+                    Aspect="AspectFit"
+                    IsAnimationPlaying="True"
+                    BackgroundColor="Transparent"
+                     />
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

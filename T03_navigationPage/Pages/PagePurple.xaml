@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T03_navigationPage.Pages.PagePurple"
+             Title="PagePurple">
+    <ScrollView VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never">
+        <Grid>
+            <!-- Gradient Overlay -->
+            <BoxView>
+                <BoxView.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="DarkOrchid" Offset="0.0" />
+                        <GradientStop Color="MediumPurple" Offset="0.5" />
+                        <GradientStop Color="Lavender" Offset="1.0" />
+                    </LinearGradientBrush>
+                </BoxView.Background>
+            </BoxView>
+
+            <!-- Animated GIF as Background -->
+            <Image Source="re1.gif"
+                   Aspect="AspectFill"
+                   IsAnimationPlaying="True"
+                   BackgroundColor="Transparent"
+                   Opacity="0.8" />
+
+            <!-- Content -->
+            <VerticalStackLayout Padding="20">
+                <Label 
+                    Text="Statistics"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    FontSize="24" />
+                <Label 
+                    Text="Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data."
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    FontSize="18"
+                    Margin="20" />
+
+                <!-- Additional Information -->
+                <Label 
+                    Text="Key Concepts in Statistics:"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    TextColor="White"
+                    FontSize="20"
+                    Margin="10,0" />
+                <Label 
+                    Text="1. Descriptive Statistics: Summarizes data from a sample using indexes such as the mean or standard deviation."
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    TextColor="White"
+                    FontSize="16"
+                    Margin="10,0" />
+                <Label 
+                    Text="2. Inferential Statistics: Makes inferences and predictions about a population based on a sample of data."
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    TextColor="White"
+                    FontSize="16"
+                    Margin="10,0" />
+
+                <!-- Interactive Chart -->
+                <Label 
+                    Text="Sample Data Visualization:"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    TextColor="White"
+                    FontSize="20"
+                    Margin="50,30" />
+
+                <Image Source="stat_aim_graph.gif"
+                    Aspect="AspectFit"
+                    IsAnimationPlaying="True"
+                    BackgroundColor="Transparent"
+                     />
+
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

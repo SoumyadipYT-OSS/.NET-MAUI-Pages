@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T03_navigationPage.Pages.PageOrange"
+             Title="PageOrange">
+    <ScrollView VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never">
+        <Grid>
+            <!-- Gradient Overlay -->
+            <BoxView>
+                <BoxView.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="OrangeRed" Offset="0.0" />
+                        <GradientStop Color="DarkOrange" Offset="0.5" />
+                        <GradientStop Color="Gold" Offset="1.0" />
+                    </LinearGradientBrush>
+                </BoxView.Background>
+            </BoxView>
+
+            <!-- Animated GIF as Background -->
+            <Image Source="calc.gif"
+                   Aspect="AspectFill"
+                   IsAnimationPlaying="True"
+                   BackgroundColor="Transparent"
+                   Opacity="0.8" />
+
+            <!-- Content -->
+            <VerticalStackLayout>
+                <Label 
+                    Text="Calculus"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    FontSize="24" />
+                <Label 
+                    Text="Calculus is the mathematical study of continuous change. It has two major branches: differential calculus and integral calculus."
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    FontSize="18"
+                    Margin="20,20" />
+
+                <!-- Additional Information -->
+                <Label 
+                    Text="Key Concepts in Calculus:"
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    TextColor="White"
+                    FontSize="20"
+                    Margin="10,0" />
+                <Label 
+                    Text="1. Differential Calculus: Concerns the concept of a derivative, which represents the rate of change of a quantity."
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    TextColor="White"
+                    FontSize="16"
+                    Margin="10,0" />
+                <Label 
+                    Text="2. Integral Calculus: Concerns the concept of an integral, which represents the accumulation of quantities."
+                    VerticalOptions="Start" 
+                    HorizontalOptions="Start"
+                    TextColor="White"
+                    FontSize="16"
+                    Margin="10,0" />
+
+                <Image Source="calculus.gif"
+                    Aspect="AspectFit"
+                    IsAnimationPlaying="True"
+                    BackgroundColor="Transparent"
+                     />
+            </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>
