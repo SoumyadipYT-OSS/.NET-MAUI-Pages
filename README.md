@@ -21,3 +21,14 @@ https://github.com/user-attachments/assets/6f4baa95-33bc-4c30-b08f-5b2885fa0763
 ## Video Output
 https://github.com/user-attachments/assets/7a4f1930-7ed9-49e2-9b79-8fcbbaa90444
 
+
+
+### ContentPage
+![Screenshot 2024-09-24 055551](https://github.com/user-attachments/assets/f0a412b4-117b-4055-b853-aceb25605003)
+
+
+## Video Output
+
+https://github.com/user-attachments/assets/ab51e52c-ac32-4cb4-a95b-93a3802934c6
+
+
