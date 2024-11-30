@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T05_ShellPage.Views.HomePage"
+             Title="HomePage">
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+            <!-- Welcome Section -->
+            <Border BackgroundColor="#2196F3" StrokeThickness="2" Stroke="#2196F3" Padding="20">
+                <StackLayout>
+                    <Label Text="Welcome to FitLife" FontSize="30" TextColor="White" HorizontalOptions="Center" />
+                    <Label Text="Your journey to a healthier life starts here!" FontSize="18" TextColor="White" HorizontalOptions="Center" />
+                </StackLayout>
+            </Border>
+
+            <!-- Featured Workouts Section -->
+            <StackLayout>
+                <Label Text="Featured Workouts" FontSize="24" TextColor="#2196F3" />
+                <CollectionView ItemsSource="{Binding FeaturedWorkouts}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Border BackgroundColor="#F0F0F0" StrokeThickness="2" Stroke="#F0F0F0" Padding="10" Margin="0,10,0,0">
+                                <StackLayout>
+                                    <Image Source="{Binding Image}" HeightRequest="150" />
+                                    <Label Text="{Binding Name}" FontSize="18" TextColor="Black" />
+                                    <Label Text="{Binding Description}" FontSize="14" TextColor="Gray" />
+                                </StackLayout>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
+            <!-- Navigation Bar -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+                <Button Text="Home" BackgroundColor="#2196F3" TextColor="White" />
+                <Button Text="Workouts" BackgroundColor="#2196F3" TextColor="White" />
+                <Button Text="Profile" BackgroundColor="#2196F3" TextColor="White" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

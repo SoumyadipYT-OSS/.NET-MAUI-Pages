@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:T05_ShellPage.Views"
+       x:Class="T05_ShellPage.AppShell">
+
+    <!-- Flyout Menu -->
+    <FlyoutItem Title="Home" Icon="home.png">
+        <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="News" Icon="news.png">
+        <ShellContent ContentTemplate="{DataTemplate local:NewsPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Support" Icon="support.png">
+        <ShellContent ContentTemplate="{DataTemplate local:SupportPage}" />
+    </FlyoutItem>
+
+    <!-- Tab Bar -->
+    <TabBar>
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent ContentTemplate="{DataTemplate local:HomePage}" />
+        </Tab>
+        <Tab Title="News" Icon="news.png">
+            <ShellContent ContentTemplate="{DataTemplate local:NewsPage}" />
+        </Tab>
+        <Tab Title="Support" Icon="support.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SupportPage}" />
+        </Tab>
+    </TabBar>
+</Shell>
