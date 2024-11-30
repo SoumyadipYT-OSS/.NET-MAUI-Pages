@@ -31,4 +31,14 @@ https://github.com/user-attachments/assets/7a4f1930-7ed9-49e2-9b79-8fcbbaa90444
 
 https://github.com/user-attachments/assets/ab51e52c-ac32-4cb4-a95b-93a3802934c6
 
+--------------------------------------------------
 
+## TabbedPage
+![Screenshot 2024-11-30 224901](https://github.com/user-attachments/assets/41d485f7-96a6-4a70-92ef-05313e794e4e)
+
+
+### Video Output
+
+https://github.com/user-attachments/assets/3f405b28-7d75-405c-928f-70f2ebf5c352
+
+--------------------------------------------------
