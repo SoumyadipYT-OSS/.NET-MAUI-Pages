@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T04_TabbedPage.Pages.home">
+
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="20">
+        <!-- 1st Row: Welcome Message -->
+        <Label Text="Welcome to App" FontSize="30" FontFamily="Arial" TextColor="#2196F3" HorizontalOptions="Center" />
+
+        <!-- 2nd Row: Box Layout with Two Columns -->
+        <Border BackgroundColor="#F0F0F0" Padding="10" StrokeShape="RoundRectangle" StrokeThickness="1">
+            <Grid ColumnDefinitions="3*,7*" Padding="5,0,0,0">
+                <Image Source="https://picsum.photos/413" Grid.Column="0" Aspect="AspectFill" />
+                <Label Text="This is a random image from Picsum. Picsum provides beautiful, high-quality images for free." Grid.Column="1" FontSize="18" TextColor="#2196F3" VerticalOptions="Center" Padding="10,0,0,0" />
+            </Grid>
+        </Border>
+
+        <!-- 3rd Row: Box Layout with Two Columns -->
+        <Border BackgroundColor="#F0F0F0" Padding="10" StrokeShape="RoundRectangle" StrokeThickness="1">
+            <Grid ColumnDefinitions="3*,7*" Padding="5,0,0,0">
+                <Image Source="https://picsum.photos/374" Grid.Column="0" Aspect="AspectFill" />
+                <Label Text="Another random image from Picsum. These images are perfect for placeholders and design inspiration." Grid.Column="1" FontSize="18" TextColor="#2196F3" VerticalOptions="Center" Padding="10,0,0,0" />
+            </Grid>
+        </Border>
+    </StackLayout>
+</ContentPage>

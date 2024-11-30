@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T04_TabbedPage.Pages.support">
+    
+    <StackLayout Padding="20" Spacing="20">
+        <!-- Header -->
+        <Label Text="Support" FontSize="30" FontFamily="Arial" TextColor="#2196F3" HorizontalOptions="Center" />
+
+        <!-- Contact Form Section -->
+        <Border BackgroundColor="#F0F0F0" Padding="10" StrokeShape="RoundRectangle" StrokeThickness="1">
+            <StackLayout Spacing="10">
+                <Label Text="Contact Us" FontSize="24" TextColor="#2196F3" />
+                <Entry Placeholder="Your Name" />
+                <Entry Placeholder="Your Email" Keyboard="Email" />
+                <Editor Placeholder="Your Message" HeightRequest="100" />
+                <Button Text="Submit" BackgroundColor="#2196F3" TextColor="White" />
+            </StackLayout>
+        </Border>
+
+        <!-- FAQ Section -->
+        <Border BackgroundColor="#F0F0F0" Padding="10" StrokeShape="RoundRectangle" StrokeThickness="1">
+            <StackLayout Spacing="10">
+                <Label Text="Frequently Asked Questions" FontSize="24" TextColor="#2196F3" />
+                <Label Text="Q: How can I reset my password?" FontSize="18" TextColor="#2196F3" />
+                <Label Text="A: You can reset your password by clicking on the 'Forgot Password' link on the login page." FontSize="16" TextColor="Black" />
+                <Label Text="Q: How do I contact customer support?" FontSize="18" TextColor="#2196F3" />
+                <Label Text="A: You can contact customer support by filling out the contact form above or by emailing support@example.com." FontSize="16" TextColor="Black" />
+            </StackLayout>
+        </Border>
+    </StackLayout>
+</ContentPage>

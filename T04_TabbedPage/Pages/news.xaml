@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="T04_TabbedPage.Pages.news">
+    
+    
+    <StackLayout Padding="20" Spacing="20">
+        <!-- Header -->
+        <Label Text="Latest News" FontSize="30" FontFamily="Arial" TextColor="#2196F3" HorizontalOptions="Center" />
+
+        <!-- Featured News Section -->
+        <Border BackgroundColor="#F0F0F0" Padding="10" StrokeShape="RoundRectangle" StrokeThickness="1">
+            <Grid ColumnDefinitions="3*,7*" Padding="5,0,0,0">
+                <Image Source="https://picsum.photos/584" Grid.Column="0" Aspect="AspectFit" />
+                <Label Text="Stay informed with the latest news from around the world. Get updates on current events, politics, and more." Grid.Column="1" FontSize="18" TextColor="#2196F3" VerticalOptions="Center" Padding="10,0,0,0" />
+            </Grid>
+        </Border>
+
+        <!-- News Articles List -->
+        <ScrollView>
+            <StackLayout Spacing="10">
+                <!-- News Article 1 -->
+                <Border BackgroundColor="#F0F0F0" Padding="10" StrokeShape="RoundRectangle" StrokeThickness="1">
+                    <Grid ColumnDefinitions="3*,7*" Padding="5,0,0,0">
+                        <Image Source="https://picsum.photos/623" Grid.Column="0" Aspect="AspectFit" />
+                        <Label Text="Explore in-depth articles and analysis on various topics. Our news coverage is comprehensive and reliable." Grid.Column="1" FontSize="18" TextColor="#2196F3" VerticalOptions="Center" Padding="10,0,0,0" />
+                    </Grid>
+                </Border>
+
+                <!-- News Article 2 -->
+                <Border BackgroundColor="#F0F0F0" Padding="10" StrokeShape="RoundRectangle" StrokeThickness="1">
+                    <Grid ColumnDefinitions="3*,7*" Padding="5,0,0,0">
+                        <Image Source="https://picsum.photos/264" Grid.Column="0" Aspect="AspectFit" />
+                        <Label Text="Get the latest updates on technology, sports, entertainment, and more. Stay ahead with our timely news articles." Grid.Column="1" FontSize="18" TextColor="#2196F3" VerticalOptions="Center" Padding="10,0,0,0" />
+                    </Grid>
+                </Border>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
