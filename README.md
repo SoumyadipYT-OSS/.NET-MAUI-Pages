@@ -1,6 +1,21 @@
 # .NET-MAUI-Pages (in .NET 8 and .NET 9)
 Here I 've contributed, .NET-MAUI-Pages, how to create pages.
 
+# .NET MAUI Pages
+
+## What is Pages?
+Pages in .NET MAUI are the building blocks of your application's user interface. They represent different screens or views within your app, and each page can contain various layouts and controls to create a rich and interactive user experience. Pages are essential for navigation and organizing the content of your app.
+
+## Types of Pages in .NET MAUI
+
+| Page Type       | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| `ContentPage`   | The most common page type, used to display a single view or layout.         |
+| `NavigationPage`| Provides a navigation stack for navigating between pages.                   |
+| `TabbedPage`    | Contains multiple tabs, each hosting a different page.                      |
+| `FlyoutPage`    | A page with a flyout menu that can be used for navigation.                  |
+| `Shell`         | A container for organizing the navigation structure of your app.            |
+
 ## ContentPage
 ![Screenshot (446)](https://github.com/user-attachments/assets/b2f9b5da-b50e-45b8-bc63-1b0894814839)
 
